@@ -28,7 +28,7 @@ public class Adress {
 	@Column(name="added_date")
 	@Temporal(TemporalType.DATE)
 	private Date added;
-	@Lob
+	@Column(name="img", columnDefinition="LONGBLOB")
 	private byte [] img;
 	public Adress() {
 		super();
