@@ -15,6 +15,8 @@
          <mapping  class="sample.sample_project.Adress"/>
          <mapping  class="com.mapping.Question"/>
          <mapping  class="com.mapping.Answer"/>
+          <mapping  class="com.mapping.Device"/>
+         <mapping  class="com.mapping.Owner"/>
 	</session-factory>
 
 </hibernate-configuration>
