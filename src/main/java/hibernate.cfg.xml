@@ -11,12 +11,14 @@
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hbm2ddl.auto">create</property>
 		<property name="show_sql">true</property>
-        <mapping  class="sample.sample_project.Student"/>
-         <mapping  class="sample.sample_project.Adress"/>
-         <mapping  class="com.mapping.Question"/>
-         <mapping  class="com.mapping.Answer"/>
-          <mapping  class="com.mapping.Device"/>
-         <mapping  class="com.mapping.Owner"/>
+		<mapping class="sample.sample_project.Student" />
+		<mapping class="sample.sample_project.Adress" />
+		<mapping class="com.mapping.Question" />
+		<mapping class="com.mapping.Answer" />
+		<mapping class="com.mapping.Device" />
+		<mapping class="com.mapping.Owner" />
+		<mapping class="manyTomany.Employee" />
+		<mapping class="manyTomany.Project" />
 	</session-factory>
 
 </hibernate-configuration>
